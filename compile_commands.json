@@ -1,0 +1,32 @@
+[
+  {
+    "directory": "/zhome/86/f/169037/COURSES/CUDA-Special-Course/Lecture-01",
+    "command": "clang++ -x cuda --cuda-gpu-arch=sm_90 -I/appl9/nvhpc/2025_253/Linux_x86_64/25.3/cuda/12.8/targets/x86_64-linux/include -g -O3 cuda.cu",
+    "file": "cuda.cu"
+  },
+  {
+    "directory": "/zhome/86/f/169037/COURSES/CUDA-Special-Course/Lecture-02",
+    "command": "clang++ -x cuda --cuda-gpu-arch=sm_90 -I/appl9/nvhpc/2025_253/Linux_x86_64/25.3/cuda/12.8/targets/x86_64-linux/include -g -O3 ex1.cu",
+    "file": "ex1.cu"
+  },
+  {
+    "directory": "/zhome/86/f/169037/COURSES/CUDA-Special-Course/Lecture-02",
+    "command": "clang++ -x cuda --cuda-gpu-arch=sm_90 -I/appl9/nvhpc/2025_253/Linux_x86_64/25.3/cuda/12.8/targets/x86_64-linux/include -g -O3 ex2.cu",
+    "file": "ex2.cu"
+  },
+  {
+    "directory": "/zhome/86/f/169037/COURSES/CUDA-Special-Course/Lecture-02",
+    "command": "clang++ -x cuda --cuda-gpu-arch=sm_90 -I/appl9/nvhpc/2025_253/Linux_x86_64/25.3/cuda/12.8/targets/x86_64-linux/include -g -O3 compare.cu",
+    "file": "compare.cu"
+  },
+  {
+    "directory": "/zhome/86/f/169037/COURSES/CUDA-Special-Course/Lecture-03",
+    "command": "clang++ -x cuda --cuda-gpu-arch=sm_90 -I/appl9/nvhpc/2025_253/Linux_x86_64/25.3/cuda/12.8/targets/x86_64-linux/include -g -O3 ex3.cu",
+    "file": "ex3.cu"
+  },
+  {
+    "directory": "/zhome/86/f/169037/COURSES/CUDA-Special-Course/Lecture-03",
+    "command": "clang++ -x cuda --cuda-gpu-arch=sm_90 -I/appl9/nvhpc/2025_253/Linux_x86_64/25.3/cuda/12.8/targets/x86_64-linux/include -g -O3 ex4.cu",
+    "file": "ex4.cu"
+  }
+]

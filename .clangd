@@ -1,0 +1,17 @@
+CompileFlags:
+  Add:
+    - -x
+    - cuda
+    - --cuda-gpu-arch=sm_90
+    - -I/appl9/nvhpc/2025_253/Linux_x86_64/25.3/cuda/12.8/targets/x86_64-linux/include
+  Remove:
+    - -Xptxas*
+    - --compiler-options*
+    - -lineinfo
+    - -diag-suppress*
+    - -arch*
+
+Diagnostics:
+  Suppress:
+    - undeclared_var_use
+    - unknown_cuda_version
