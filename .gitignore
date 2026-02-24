@@ -1,0 +1,49 @@
+# Build outputs — week2
+week2/cpu
+week2/cuda
+week2/omp_offload
+week2/reduction
+week2/*.o
+
+# Build outputs — week3
+week3/ex1
+week3/ex2
+week3/compare
+
+# Generic patterns for future weeks
+week*/ex[0-9]*
+week*/*.o
+week*/compare
+week*/reduction
+
+# CUDA profiler output
+*.nvvp
+*.nsys-rep
+*.ncu-rep
+*.qdrep
+*.sqlite
+
+# PTX / cubin intermediates
+*.ptx
+*.cubin
+*.fatbin
+
+# Core dumps
+core
+core.*
+
+# macOS
+.DS_Store
+
+# Editor temporaries
+*.swp
+*.swo
+*~
+\#*\#
+.#*
+
+# Zotero 
+_/ 
+
+# AI 
+AGENTS.md
