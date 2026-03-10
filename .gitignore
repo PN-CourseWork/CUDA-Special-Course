@@ -1,20 +1,27 @@
-# Build outputs — week2
-week2/cpu
-week2/cuda
-week2/omp_offload
-week2/reduction
-week2/*.o
+# Build outputs — Lecture-01
+Lecture-01/cpu
+Lecture-01/cuda
+Lecture-01/omp_offload
+Lecture-01/reduction
+Lecture-01/*.o
 
-# Build outputs — week3
-week3/ex1
-week3/ex2
-week3/compare
+# Build outputs — Lecture-02
+Lecture-02/ex1
+Lecture-02/ex2
+Lecture-02/compare
+Lecture-02/*.o
 
-# Generic patterns for future weeks
-week*/ex[0-9]*
-week*/*.o
-week*/compare
-week*/reduction
+# Build outputs — Lecture-03
+Lecture-03/ex3
+Lecture-03/ex4
+Lecture-03/compare
+Lecture-03/*.o
+
+# Generic patterns for future lectures
+Lecture-*/ex[0-9]*
+Lecture-*/*.o
+Lecture-*/compare
+Lecture-*/reduction
 
 # CUDA profiler output
 *.nvvp
@@ -42,8 +49,8 @@ core.*
 \#*\#
 .#*
 
-# Zotero 
-_/ 
+# Zotero
+_/
 
-# AI 
+# AI
 AGENTS.md
